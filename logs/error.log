@@ -62,3 +62,14 @@
 2024-09-21 08:52:46,904 - ERROR - Error Plot the promotion distributions for comparison.: name 'train_promo_distribution' is not defined
 2024-09-21 08:53:28,958 - ERROR - Error Plot the promotion distributions for comparison.: name 'train_promo_distribution' is not defined
 2024-09-21 08:57:32,365 - ERROR - Error loading data: Missing column provided to 'parse_dates': 'Date'
+2024-09-21 09:17:30,767 - ERROR - Error loading data: Missing column provided to 'parse_dates': 'Date'
+2024-09-21 09:33:55,682 - ERROR - Error loading data: Missing column provided to 'parse_dates': 'Date'
+2024-09-21 09:34:15,977 - ERROR - Error loading data: Missing column provided to 'parse_dates': 'Date'
+2024-09-21 09:37:30,030 - ERROR - Error loading data: [Errno 2] No such file or directory: 'file_paths'
+2024-09-21 09:37:30,032 - ERROR - Error loading data: [Errno 2] No such file or directory: 'file_paths'
+2024-09-21 09:37:30,315 - ERROR - Error loading data: [Errno 2] No such file or directory: 'file_paths'
+2024-09-21 09:38:02,845 - ERROR - Error loading data: [Errno 2] No such file or directory: 'file_paths'
+2024-09-21 09:43:27,247 - ERROR - Error loading data: [Errno 2] No such file or directory: 'file_paths'
+2024-09-21 09:43:27,373 - ERROR - Error loading data: [Errno 2] No such file or directory: 'file_paths'
+2024-09-21 09:44:28,225 - ERROR - Error loading data: [Errno 2] No such file or directory: 'file_paths'
+2024-09-21 09:44:28,564 - ERROR - Error loading data: [Errno 2] No such file or directory: 'file_paths'

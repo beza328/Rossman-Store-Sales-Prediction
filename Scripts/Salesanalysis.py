@@ -52,6 +52,7 @@ def load_data(file_path):
     try:
         df = pd.read_csv(file_path, parse_dates=['Date'])
         df.set_index('Date', inplace=True)
+       
         logger.info(f"Data loaded with shape {df.shape}")
         return df
     except Exception as e:
@@ -102,3 +103,6 @@ def plot_distribution(Train, Test):
     except Exception as e:
         logger.error(f"Error Plot the promotion distributions for comparison.: {e}")
         return None 
+
+
+

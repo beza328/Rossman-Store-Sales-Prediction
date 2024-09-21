@@ -1,0 +1,5 @@
+outs:
+- md5: 8dc91467473ffbdf3d830ff1e7eb3720
+  size: 62154549
+  hash: md5
+  path: Store_train.csv
