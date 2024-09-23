@@ -1,12 +1,6 @@
 import os
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-#from statsmodels.tsa.seasonal import seasonal_decompose
-#from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-#from statsmodels.tsa.stattools import acf, pacf
-import holidays
 import logging
 
 
@@ -50,8 +44,8 @@ logger.addHandler(error_handler)
 def load_data(file_path):
     logger.info("Loading data from file...")
     try:
-        df = pd.read_csv(file_path, parse_dates=['Date'])
-        df.set_index('Date', inplace=True)
+        df = pd.read_csv(file_path) #, parse_dates=['Date'])
+        #df.set_index('Date', inplace=True)
         logger.info(f"Data loaded with shape {df.shape}")
         return df
     except Exception as e:
