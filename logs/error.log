@@ -246,3 +246,5 @@
 2024-09-23 03:27:33,254 - ERROR - Error in plotting store type performance: 'Store_Type'
 2024-09-23 06:14:33,845 - ERROR - Error in plotting promo effect: "None of ['Date'] are in the columns"
 2024-09-23 06:14:39,762 - ERROR - Error in plotting promo effect: "None of ['Date'] are in the columns"
+2024-09-24 13:34:22,159 - ERROR - Error plotting number of customer per month.: 'Date'
+2024-09-24 13:34:26,492 - ERROR - Error plotting number of customer per month.: 'Date'

@@ -105,13 +105,13 @@ def plot_distribution(Train, Test):
 def plot_customers_per_month(df):
     logger.info("Plot number of customer per month.")
     try:
-        df['month'] = df['Date'].dt.month
-        Customers_per_month = df[df['Open'] == 1].groupby('month')[['Customers']].sum().reset_index()
-        plt.figure(figsize=(10, 6))
-        Customers_per_month.plot(kind='bar')
-        plt.title('Customers per Month')
-        plt.xlabel('Months)')
-        plt.ylabel('Number of customers')
+       # df['month'] = df['Date'].dt.month
+        monthly_sales = df['Sales'].resample('M').sum()
+        plt.figure(figsize=(15, 7))
+        plt.plot(monthly_sales.index, monthly_sales)
+        plt.title('Monthly Sales Over Time')
+        plt.xlabel('Date')
+        plt.ylabel('Sales')
         plt.show()
 
     except Exception as e:
